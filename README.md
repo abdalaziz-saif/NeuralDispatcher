@@ -9,8 +9,6 @@
 
 ---
 
-## What Is NeuralDispatcher?
-
 Every AI system that handles multiple tasks faces the same problem — how does it know what the user actually wants? Instead of guessing, NeuralDispatcher reads any user request and automatically routes it to the right category. It's the brain that sits in front of a multi-agent system and decides who handles what.
 
 Built on a fine-tuned RoBERTa model trained on the Databricks Dolly 15K dataset, served through a FastAPI REST API, and fully containerized with Docker.
@@ -220,6 +218,4 @@ The main challenge is that `open_qa`, `closed_qa`, and `general_qa` are genuinel
 
 ---
 
-## License
-
-MIT License — free to use, modify, and distribute.
+Made with love ❤️ by abdalaziz 
